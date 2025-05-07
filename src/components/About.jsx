@@ -17,9 +17,9 @@ const About = () => {
             <span className="font-bold text-3xl md:text-5xl">Firaol Gula</span>
           </h1>
           <h2 className="mt-2 text-sm md:text-xl">
-            A passionate Full-stack developer proficient in building and
-            deploying robust web applications from front-end user interfaces to
-            back-end infrastructure.
+            A passionate Full-stack (Back-end heavy) developer proficient in
+            building and deploying robust web applications from front-end user
+            interfaces to back-end infrastructure.
           </h2>
           <div className="animate-btn mt-10 flex justify-center items-center">
             <a href="https://flowcv.com/resume/gfqdsh2ct3uj" target="_blank">

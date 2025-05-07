@@ -25,11 +25,10 @@ function App() {
 
           <Education />
           <Skills />
-          <Contact />
         </div>
         <div
           className={`size-[100%] rounded-[50%] ${
-            theme == "light" && "juju"
+            theme == "light" && ""
           }   top-0 left-0 fixed animate-ping`}
         ></div>
       </div>

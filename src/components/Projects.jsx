@@ -33,17 +33,18 @@ const Projects = () => {
                     </a>
                   </div>
                 )}
-
-                <div className="badge  bg-primary-content rounded-lg  hover:bg-primary-content/70 text-primary font-bold badge-sm mr-2 mt-2 cursor-pointer transition-all border-0 ">
-                  <a
-                    href={project.githublink}
-                    target="_blank"
-                    className="flex gap-1 items-center"
-                  >
-                    <Github className="size-4" />
-                    <p className="font-bold mr-1">Code</p>
-                  </a>
-                </div>
+                {project.githublink && (
+                  <div className="badge  bg-primary-content rounded-lg  hover:bg-primary-content/70 text-primary font-bold badge-sm mr-2 mt-2 cursor-pointer transition-all border-0 ">
+                    <a
+                      href={project.githublink}
+                      target="_blank"
+                      className="flex gap-1 items-center"
+                    >
+                      <Github className="size-4" />
+                      <p className="font-bold mr-1">Code</p>
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>

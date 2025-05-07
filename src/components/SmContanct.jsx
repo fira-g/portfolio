@@ -3,7 +3,7 @@ import React from "react";
 
 const SmContanct = ({ onBackToTop }) => {
   return (
-    <div className="fixed sm:hidden bottom-7 z-10 bg-primary/70 backdrop-blur-lg rounded-2xl p-2">
+    <div className="fixed bottom-7 z-10 bg-primary/70 backdrop-blur-lg rounded-2xl p-2">
       <div className="flex gap-2  ">
         <button onClick={onBackToTop}>
           <Home className="size-6 hover:bg-base-300/65 p-1 rounded-lg transition-all" />
