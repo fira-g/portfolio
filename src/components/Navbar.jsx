@@ -7,7 +7,7 @@ const Navbar = () => {
   const [dark, setDark] = useState(false);
   const combinedClick = () => {
     setDark(!dark);
-    dark ? setTheme("black") : setTheme("light");
+    dark ? setTheme("light") : setTheme("black");
   };
   return (
     <div className=" fixed backdrop-blur-lg w-full z-1000 bg-base-100/80">
@@ -20,7 +20,7 @@ const Navbar = () => {
                 className="bg-primary/15 size-8 p-2 rounded-xl flex justify-center items-center hover:bg-primary/30"
                 onClick={() => combinedClick()}
               >
-                {dark ? <Moon size={18} /> : <Sun size={18} />}
+                {dark ? <Sun size={18} /> : <Moon size={18} />}
               </button>
             </div>
           </div>
