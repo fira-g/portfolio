@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Yeneta",
     description:
-      "A backend for a children centered learning mobile app with features of video tutorials, quizzes, popular person stories, folktales and many more.",
+      "Developed backend for a children centered learning mobile app with features of video tutorials, quizzes, popular person stories, folktales and many more.",
     techStacks: ["NodeJS", "ExpressJS", "MongoDB", "Cloudinary"],
     githublink: "https://github.com/fira-g/Yeneta-api.git",
     live: "",
@@ -24,6 +24,15 @@ export const projects = [
     githublink: "https://github.com/fira-g/realtime-chat-app.git",
     live: "https://realtime-chat-app-a7bp.onrender.com",
     imagePath: "project2.png",
+  },
+  {
+    title: "Movie-App",
+    description:
+      "A full-stack mobile application with features like movie search, trending movies, movie details and more",
+    techStacks: ["React Native", "Expo", "TypeScript", "TMDB API", "Axios"],
+    githublink: "https://github.com/fira-g/movie-app.git",
+    live: "",
+    imagePath: "movieaa.png",
   },
 
   {

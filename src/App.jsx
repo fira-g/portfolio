@@ -15,7 +15,7 @@ function App() {
     <>
       <div
         data-theme={theme}
-        className="min-h-screen  bg-base-100  bg-[radial-gradient(var(--color-primary)_0.35px,var(--color-base-100)_0.35px)] bg-[length:10px_10px] relative "
+        className="min-h-screen  bg-base-100  bg-[radial-gradient(var(--color-primary)_1px,var(--color-base-100)_1px)] bg-[length:12px_12px] relative "
       >
         <div className="flex flex-col  h-full  ">
           <Navbar className="backdrop-blur-2xl bg-base-100/80" id="nav" />

@@ -9,7 +9,11 @@ export const skills = [
   "PostegreSQL",
   "MySQL",
   "React",
+  "React Native",
+  "Expo",
+  "NativeWind",
   "TailwindCSS",
+
   "Zustand",
   "Postman",
   "....",

@@ -12,6 +12,7 @@ const Education = () => {
             University.
           </p>
         </div>
+
         <div className="flex gap-5 items-center ">
           <img src="GDG.jpg" className="size-11 rounded-[50%]" alt="" />
           <p className="font-bold text-sm sm:text-lg border-b-1 font-sans">
