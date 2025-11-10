@@ -14,6 +14,7 @@ export const projects = [
     ],
     githublink: "https://github.com/fira-g/AgriTel-Backend.git",
     live: "",
+    onDev: true,
     imagePath: "agritel.png",
   },
   {
@@ -23,6 +24,7 @@ export const projects = [
     techStacks: ["NodeJS", "ExpressJS", "MongoDB", "Cloudinary"],
     githublink: "https://github.com/fira-g/Yeneta-api.git",
     live: "",
+
     imagePath: "yenetaa.png",
   },
   {
@@ -55,8 +57,8 @@ export const projects = [
       "Zustand",
       "Socket.io",
     ],
-    githublink: "https://github.com/fira-g/realtime-chat-app.git",
-    live: "https://realtime-chat-app-a7bp.onrender.com",
+    githublink: "https://github.com/fira-g/hospital-MS.git",
+    live: "",
     imagePath: "hospital.png",
   },
   {

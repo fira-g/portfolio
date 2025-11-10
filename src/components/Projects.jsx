@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../constants/projectDetails.js";
-import { Github, Link, Link2 } from "lucide-react";
+import { Dot, Github, Link, Link2 } from "lucide-react";
 import "../App.css";
 
 const Projects = () => {
@@ -17,7 +17,18 @@ const Projects = () => {
             />
 
             <div className=" mt-[-10px] flex-1 flex flex-col justify-between py-6 px-2 gap-1">
-              <h2 className="font-bold text-lg">{project.title}</h2>
+              <div className="flex items-center justify-between  max-h-fit ">
+                <h2 className="font-bold text-lg ">{project.title}</h2>
+                {project?.onDev && (
+                  <div className=" text-green-600 font-bold   cursor-pointer transition-all border-0 ">
+                    <a href={project.live} className="flex  items-center">
+                      <Dot className="size-6" />
+                      <p className=" font-medium">Under Development</p>
+                    </a>
+                  </div>
+                )}
+              </div>
+
               <p>{project.description}</p>
               <div className="z-10">
                 {project.techStacks.map((tech) => (
