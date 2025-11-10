@@ -23,7 +23,7 @@ const About = () => {
           </h2>
           <div className="animate-btn mt-10 flex justify-center items-center">
             <a
-              href="https://drive.google.com/file/d/19TIcmkGyubuUiOAPVbVgXD47pQVyejM4/view?usp=sharing"
+              href="https://drive.google.com/file/d/1iMsvuevMzbMjdkLhQzgq7jQDuLqH6tfJ/view?usp=sharing"
               target="_blank"
             >
               <button className="w-[96px] md:w-[120px] btn btn-primary rounded-xl border-0">
