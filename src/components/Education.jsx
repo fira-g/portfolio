@@ -7,7 +7,7 @@ const Education = () => {
       <h1 className="font-bold text-4xl  mb-10 relative z-2 ">Education</h1>
       <div className="container max-w-3xl flex flex-col gap-2">
         <a
-          href="https://google.com"
+          href="https://www.aastu.edu.et/"
           target="_blank"
           className="flex gap-5 items-center cursor-pointer z-10 hover:opacity-85"
         >
