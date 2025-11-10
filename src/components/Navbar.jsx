@@ -12,8 +12,8 @@ const Navbar = () => {
   return (
     <div className=" fixed backdrop-blur-lg w-full z-1000 bg-base-100/80">
       <div className=" w-full  shadow-base-200 ">
-        <div className="  flex justify-center">
-          <div className="container flex p-2 justify-between">
+        <div className="px-2 md:px-4 lg:px-8">
+          <div className="flex p-2 justify-between">
             <h1 className="font-extrabold text-2xl">{"< FiraDevs />"}</h1>
             <div className="flex justify-between gap-3 ">
               <button

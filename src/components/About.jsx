@@ -10,13 +10,13 @@ const About = () => {
   };
   return (
     <div className="min-h-screen relative flex justify-center items-center p-6">
-      <div className="container flex flex-col-reverse gap-3 items-center sm:flex-row p-2 sm:justify-between">
-        <div className="left flex flex-col items-center text-center sm:text-left sm:gap-3 sm:items-start sm:max-w-[50%] ">
-          <h1 className=" text-xl md:text-3xl">
+      <div className=" flex flex-col-reverse gap-3 items-center sm:flex-row p-2 sm:justify-around">
+        <div className="left flex flex-col items-center text-center sm:text-left sm:gap-5 sm:items-start sm:max-w-[50%] ">
+          <h1 className=" text-xl lg:text-4xl">
             Hi 👋, I am{" "}
-            <span className="font-bold text-3xl md:text-5xl">Firaol Gula</span>
+            <span className="font-bold text-3xl lg:text-6xl">Firaol Gula</span>
           </h1>
-          <h2 className="mt-2 text-md md:text-xl">
+          <h2 className="mt-2 text-md lg:text-2xl">
             A passionate Full-stack web and aspiring React Native developer
             proficient in building and deploying robust web applications from
             front-end user interfaces to back-end infrastructure.
